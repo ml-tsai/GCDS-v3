@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <!-- TemplateBeginEditable name="doctitle" --><title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+        <link type="text/css" rel="stylesheet" href="/css/style.css" />
+        <link type="image/x-icon" rel="shortcut icon" href="/images/common/favicon.ico" />
+        <title></title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/nav-selected.js"></script>
+    </head>
+    <body>
+        <div class="pattern2" id="wrap">
+        <div class="clearfix" id="main">
+        <div id="wrapper">
+        <div id="header">
+        {module_contentholder,17900}
+        </div>
+        <!-- header ends -->
+        <div id="content">
+        <div class="round contentHolder2">
+        <div class="left col3 padding20">
+        <div class="breadcrumb">
+        <a href="/">Homepage</a><span>&raquo;</span>
+        <p>{module_breadcrumbs, <span>&raquo;</span>}</p>
+        </div>
+        <div class="mainInfo">
+        <!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+        </div>
+        </div>
+        <div class="right col4 gradient2">
+        <div class="rightTop">
+        <div class="rightBottom">
+        <div class="rightBox padding20 contactImage">
+        <h3>Locate us on Google Map</h3>
+        <div class="map">
+        <iframe width="250" scrolling="no" height="400" frameborder="0" src="http://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=gold+coast+design+studio&amp;aq=&amp;sll=-25.335448,135.745076&amp;sspn=82.03222,191.513672&amp;vpsrc=0&amp;ie=UTF8&amp;hq=gold+coast+design+studio&amp;hnear=&amp;radius=15000&amp;t=m&amp;cid=2577548353618741327&amp;ll=-28.081749,153.410254&amp;spn=0.030291,0.021458&amp;z=14&amp;iwloc=near&amp;output=embed" marginwidth="0" marginheight="0"></iframe><br />
+        <small><a href="http://maps.google.com.au/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=gold+coast+design+studio&amp;aq=&amp;sll=-25.335448,135.745076&amp;sspn=82.03222,191.513672&amp;vpsrc=0&amp;ie=UTF8&amp;hq=gold+coast+design+studio&amp;hnear=&amp;radius=15000&amp;t=m&amp;cid=2577548353618741327&amp;ll=-28.081749,153.410254&amp;spn=0.030291,0.021458&amp;z=14&amp;iwloc=A">View Larger Map</a></small>
+        <br />
+        {module_photogallery,23560,3,,3,75,}
+        </div>
+        <p>
+        <strong>ABN:</strong> 90 126 200 119<br />
+        <strong>Contact No:</strong> +61 (7) 5538 3060<br />
+        <strong>Mobile:</strong> +61 (0) 419 764 862
+        </p>
+        <p>
+        <strong>Address:</strong><br />
+        No.2 Little Blue Lane, Varsity Lakes<br />
+        Queensland 4227
+        </p>
+        <br />
+        <h3>Connect With Us:</h3>
+        <ul class="rightLinks socialLinks">
+            <li class="sFacebook"><a target="_blank" href="http://www.facebook.com/goldcoastdesignstudio">Like us on Facebook</a></li>
+            <li class="sTwitter"><a target="_blank" href="http://www.twitter.com/gcds_tweets">Follow us on Twitter</a></li>
+            <li class="sGoogle"><a target="_blank" href="http://gplus.to/goldcoastdesignstudio">+1 on our Google Plus</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- contentholder1 ends -->
+        </div>
+        <!-- content ends -->
+        </div>
+        <!-- wrapper ends -->
+        </div>
+        <!-- main ends -->
+        </div>
+        <!-- wrap ends -->
+        <div id="footerContainer">
+        <div id="footer">
+        {module_contentholder,17899}
+        </div>
+        </div>
+    </body>
+</html>

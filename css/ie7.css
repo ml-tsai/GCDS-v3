@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.round { behavior: url(/border-radius.htc); }
+
+.col1 { width:244px; margin:0 0 0 1px; }
+
+.shortForm { padding:15px 19px; }

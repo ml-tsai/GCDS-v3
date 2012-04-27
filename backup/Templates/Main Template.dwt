@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="index, follow" name="robots" />
+<!-- TemplateBeginEditable name="doctitle" --><title>BC Partner - Home</title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<link type="text/css" href="/stylesheets/ups-screen.css" rel="stylesheet" />
+<link type="text/css" href="/stylesheets/theme.css" rel="stylesheet" />
+<!--[if IE 6]><link rel="stylesheet" href="/StyleSheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
+</head>
+<body>
+<a href="/admin" id="site-admin">Site Admin</a> 
+<div id="stretch-header">
+  <div class="gradient">
+    <div class="container" id="container-header"> <a href="/" id="logo"><img alt="BC Partner" src="/cssimg/logo-placeholder.png" class="fixPNG" /></a>
+      <div id="whoslogged"> {module_whosloggedin,/secure-client-portal}
+      </div>
+      <div id="search-site">
+        <form action="/Default.aspx?SiteSearchID=617&amp;ID=/search-results" method="post" name="catsearchform13377">
+          <input type="text" id="CAT_Search" name="CAT_Search" class="text" arprops=",,219px,16px,static,auto,visible,,," />
+          <input type="submit" value="Search" class="button-submit" />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="stretch-nav">
+  <div class="container" id="container-nav"> {module_menu,417846} </div>
+</div>
+<div id="stretch-content">
+  <div class="container" id="container-content">
+    <!-- Page Content -->
+    <!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+    <!-- End Page Content -->
+  </div>
+</div>
+<div id="stretch-footer">
+  <div class="container" id="container-footer">
+    <hr class="space" />
+    <hr />
+    <!-- <hr class="space" /> -->
+    <div class="span-5 colborder" id="section-newsletter">
+      <h6>Newsletter Sign Up</h6>
+      <form action="/CampaignProcess.aspx?ListID=20459" method="post" onsubmit="return checkWholeForm74732(this)" name="catemaillistform74732">
+        <div class="form">
+          <div class="item">
+            <label for="CLFullName">Full Name</label>
+            <input type="text" maxlength="255" id="CLFullName" name="FullName" class="text" arprops=",,158px,16px,static,auto,visible,,," />
+          </div>
+          <div class="item">
+            <label for="CLEmailAddress">Email Address</label>
+            <input type="text" maxlength="255" id="CLEmailAddress" name="EmailAddress" class="text" arprops=",,158px,16px,static,auto,visible,,," />
+          </div>
+          <div class="item">
+            <label for="Captcha">Enter Word Verification in box below</label>
+            <img alt="Captcha" src="/captchaprocess.aspx?color=gray" />
+            <input type="text" id="Captcha" name="Captcha" class="text" arprops=",,158px,16px,static,auto,visible,,," />
+            <input type="hidden" value="{module_captcha}" id="CaptchaH" name="CaptchaH" arprops=",,,,static,auto,visible,,," />
+          </div>
+          <div class="item">
+            <input type="submit" id="catlistbutton" value="Subscribe" class="button-submit" />
+          </div>
+        </div>
+        <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script>
+        <script type="text/javascript">function checkWholeForm74732(theForm){var why = "";if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value);if (theForm.Captcha && theForm.CaptchaH) if (formfield(theForm.Captcha.value,'allupper') != theForm.CaptchaH.value) why += appendBreak("- Word verification is incorrect."); if (why != ""){alert(why);return false;}theForm.submit();return false;}</script>
+      </form>
+    </div>
+    <div class="span-8 append-1" id="section-nav-footer">
+      <div class="nav-footer span-3">
+        <h6>Main</h6>
+        {module_menu,417846} </div>
+      <div class="nav-footer span-3">
+        <h6>Overview</h6>
+        {module_menu,417856} </div>
+      <div class="span-2"> </div>
+    </div>
+    <div class="span-9 last" id="section-site-info"> Copyright © 2009. <a href="/">BC Partner</a>. All rights reserved.<br />
+      <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy">Privacy Policy</a> </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.0.2" type="text/css" media="screen" />
+<link href="/images/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="/js/nav-selected.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.0.2"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+<script>
+	$(document).ready(function() {
+		$("#responsecontainer").load("/single-testimonial");
+			var refreshId = setInterval(function() {
+		$("#responsecontainer").load('/single-testimonial?randval='+ Math.random());
+			}, 7500);
+		$.ajaxSetup({ cache: false });
+	});
+</script>
+
+{module_contentholder,20457}
+
+</head>
+<body>
+	<div id="wrap" class="pattern2">
+		<a name="top"></a>
+    	<div id="main" class="clearfix">
+        	<div id="wrapper">
+                <div id="header">
+                	 {module_contentholder,17900}
+                </div><!-- header ends -->
+                <div id="content">
+                    <div class="round contentHolder2">
+                    	<div class="left col1 gradient1">
+                        	<div class="leftBottomShadow">
+                                <div class="leftNavigation">
+                                    {module_menu,1093751}
+                                </div>
+                                {module_contentholder,21186}
+                            </div>
+                        </div>
+                        <div class="right col2 padding20">
+                        	<div class="breadcrumb">
+                                <a href="/">Homepage</a><span>&raquo;</span>
+                                <p>{module_breadcrumbs, <span>&raquo;</span>}</p>
+                            </div>
+                            <div class="mainInfo">
+                    		<!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                            </div>
+                        </div>
+                    </div><!-- contentholder2 ends -->
+                </div><!-- content ends -->
+            </div><!-- wrapper ends -->
+        </div><!-- main ends -->
+    </div><!-- wrap ends -->
+    <div id="footerContainer">
+    	<div id="footer">
+        	{module_contentholder,17899}
+        </div>
+    </div>
+</body>
+</html>

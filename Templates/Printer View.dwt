@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<!-- TemplateBeginEditable name="doctitle" --><title>WhiteLabelPartnerSite</title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="robots" content="index, follow" />
+
+	<link rel="shortcut icon" href="http://ups-na.businesscatalyst.com/" />
+	<link rel="stylesheet" href="/stylesheets/base.css" media="screen,projection,print" type="text/css" />
+	<style type="text/css" media="screen">
+		body {line-height: 1.5; font-size: 10pt;}
+		hr { 
+		  background:#ccc; 
+		  color:#ccc;
+		  width:100%;
+		  height:2px;
+		  margin:2em 0;
+		  padding:0;
+		  border:none;
+		}
+		div.date { font-size: 8pt; margin-bottom: 3em;}
+		div.content { margin-top: 3em;}
+	</style>
+</head>
+<body>
+
+<div id="print" class="container">
+		<div class="date">{module_today}</div>
+		<div class="content"><!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable --></div>
+</div>
+
+</body>
+</html>
+
+

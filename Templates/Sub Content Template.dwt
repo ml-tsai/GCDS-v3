@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/images/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/js/jquery.coda-slider-2.0.js"></script>
+<script type="text/javascript">
+	$().ready(function() {
+		$('#coda-slider-1').codaSlider();
+	});
+</script>
+
+</head>
+
+<body>
+	<div id="wrap" class="pattern2">
+    	<div id="main" class="clearfix">
+        	<div id="wrapper">
+                <div id="header">
+                	{module_contentholder,17900}
+                </div><!-- header ends -->
+                <div id="content">
+                	<!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                </div><!-- content ends -->
+            </div><!-- wrapper ends -->
+        </div><!-- main ends -->
+    </div><!-- wrap ends -->
+    <div id="footerContainer">
+    	<div id="footer">
+        	{module_contentholder,17899}
+        </div>
+    </div>
+</body>
+</html>

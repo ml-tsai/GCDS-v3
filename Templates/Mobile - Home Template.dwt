@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<link href="/mobile/css/mobile.css" rel="stylesheet" type="text/css" />
+<link href="/images/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- META INFORMATION -->
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+
+<body>
+	<div id="wrap">
+    	<div id="main" class="clearfix">
+        	<header>
+            	<a href="/mobile/" class="logo">Gold Coast Design Studio</a>
+            </header>
+            <div id="content">
+            	<div id="mainContent">
+					<!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                </div>
+                <nav>
+                    {module_menu,1122005}
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="footerBox">
+        <footer>
+            <div class="topFooter">
+                <div class="button">
+                	<a href="mailto:enquire@gcds.com.au?subject=Mobile Enquiry:">Email Us</a>
+                </div>
+                <div class="button">
+                    <a title="5538 3060" target="_self" href="tel:55383060">5538 3060</a>
+                </div>
+            </div>
+            <div class="bottomFooter">
+                <p>
+                    Copyright &copy; 2007 - 
+                    <script type="text/javascript">
+                        var d=new Date();
+                        document.write(d.getFullYear());
+                    </script>
+                    Gold Coast Design Studio.<br>All Rights Reserved. View <a href="#">Full Site</a>.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+

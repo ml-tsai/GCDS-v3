@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Latest tips and trends in web design and marketing for business owners." />
+<meta name="keywords" content="gold coast web design, gold coast design studio, website solutions varsity lakes, robina web design, web designer gold coast, web designer brisbane, web designer queensland" />
+
+<title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.0.2" type="text/css" media="screen" />
+<link href="/images/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="/js/nav-selected.js"></script>
+<script type="text/javascript" src="/js/jquery.twitter.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#twitter").getTwitter({
+			userName: "gcds_tweets",
+			numTweets: 5,
+			loaderText: "Loading tweets...",
+			slideIn: true,
+			slideDuration: 750,
+			showHeading: true,
+			headingText: "Our Twitter Feeds",
+			showProfileLink: true,
+			showTimestamp: true
+		});
+	});
+</script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.0.2"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+{module_contentholder,20457}
+
+</head>
+
+<body>
+	<div id="wrap" class="pattern2">
+    	<div id="main" class="clearfix">
+        	<div id="wrapper">
+                <div id="header">
+                    {module_contentholder,17900}
+                </div><!-- header ends -->
+                <div id="content">
+                    <div class="round contentHolder2">
+                    	<div class="left col2 padding20">
+                        	<div class="breadcrumb">
+                                <a href="/">Homepage</a><span>&raquo;</span>
+                                <p>{module_breadcrumbs, <span>&raquo;</span>}</p>
+                            </div>
+                        	<div class="mainInfo">
+							<!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                            </div>
+                        </div>
+                        <div class="right col1 gradient2">
+                        	<div class="rightTop">
+                            	<div class="rightBottom">
+                                	<div class="rightBox">
+                                		<h4>Recent Articles</h4>
+                                        {tag_blogrecentpost}
+                                    </div>
+                                    <div class="rightBox">
+                                        <h4>Blog Categories</h4>
+                                        {tag_blogtaglist}
+                                    </div>
+                                    <div class="rightBox">
+                                        <h4>Archive</h4>
+                                        {tag_blogpostarchive}
+                                    </div>
+                                    <div class="rightBox">
+                                    	<div id="twitter"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- contentholder2 ends -->
+                </div><!-- content ends -->
+            </div><!-- wrapper ends -->
+        </div><!-- main ends -->
+    </div><!-- wrap ends -->
+    <div id="footerContainer">
+    	<div id="footer">
+        	{module_contentholder,17899}
+        </div>
+    </div>
+</body>
+</html>

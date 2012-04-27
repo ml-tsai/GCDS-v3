@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+	Slideshow
+*/
+
+#slides {
+	display:block; width:600px; height:400px; position:relative;
+	padding:25px 5px 60px 5px !important; margin:0 0 20px 0;
+	background:url(/images/common/portfolio-background-large.png) no-repeat; 
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:600px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container img {
+	width:600px;
+	height:400px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.mainInfo #slides ul.pagination {
+	margin-left: -30px !important; position: absolute; bottom:0; left: 50%; width:auto !important;
+	overflow:hidden; padding:0 !important; margin-top:0; text-align:center; display:block; padding:0 !important;
+}
+
+.mainInfo #slides ul.pagination li {
+	margin:0 1px;
+	list-style:none;
+	display:inline;
+}
+
+.mainInfo #slides ul.pagination li a {
+	width:18px;
+	height:0;
+	padding-top:12px;
+	background:url(../img/pagination.png) top center no-repeat;
+	float:left;
+	overflow:hidden;
+}
+
+.mainInfo #slides ul.pagination li.current a {
+	background-position:0 -12px;
+}

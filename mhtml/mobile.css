@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-size: 12px; font-family:Arial, Helvetica, sans-serif;color:#2b2b2b;
+}
+body{padding:0px; margin:0px;-webkit-text-size-adjust:none;}
+a{text-decoration:none;}
+
+#dMobileHolder{width:100%; height:100%; padding:0px; margin:0px;}
+#dMbHeader{width:100%; background:url(/mhtml/images/headerbg.jpg) repeat-x; height:81px;-webkit-background-size: 320px 81px;}
+
+#dMbLogo{display:inline-block;background:url(/mhtml/images/gcds_logo.png) no-repeat; margin-left:25px; width:140px; height:81px; float:left;}
+
+a #dMbLogo{color:#FFF; font-size:11px; text-decoration:none;}
+.cMbIC{font-weight:bold; display:block; margin-left:23px; margin-top:29px; letter-spacing:-1px;}
+.cMbSmall{font-size:6px; letter-spacing:0px;}
+.cMbOrange{color:#d26400;}
+
+@media screen and (-webkit-device-pixel-ratio:2){
+#dMbHeader{background:url(/mhtml/images/headerbg@2x.jpg); }	
+#dMbLogo{ background:url(/mhtml/images/gcds_logo@2x.png) no-repeat;-webkit-background-size: 140px 81px;}
+}
+
+#dMbPhone{
+	display:inline-block;	float:right;	height:40px;	margin-top:10px;	line-height:40px;	color:#f26122;	font-size:16px; font-weight:bold;margin-right:20px;	background:url(/mhtml/images/top_phone.png) no-repeat left; text-indent:25px; clear:right;} 
+#dMbPhone a{text-decoration:none; color:#f26122;	}
+
+#dMbMenu{display:inline-block;float:right;margin-right:20px; width:100px;  position:relatvie; clear:right;}
+#dMbMenu ul{margin:0px; padding:0px;}
+#dMbMenu ul li{float:left; display:inline;list-style:none;background:url(/mhtml/images/top_iconline.png) repeat-y right;width:50px;height:31px; text-align:center;}
+
+.cMbHome a{background:url(/mhtml/images/top_icon1.png) no-repeat center; float:left;text-indent:-9999px;overflow:hidden;width:50px; height:31px;}
+.cMbBack a{background:url(/mhtml/images/top_icon2.png) no-repeat center; float:left;text-indent:-9999px;overflow:hidden;width:50px; height:31px;}
+#dMbTorso{width:94%; margin:0 auto; padding: 10px 0px; height:100%; overflow:hidden;}
+
+#dMbHomeMenu ul{padding:0px; margin:0px auto; text-transform:uppercase; font-size:16px; width:95%;}
+#dMbHomeMenu li{background:url(/mhtml/images/arrow_orange.png) right no-repeat;height:38px; line-height:38px; border:#c5c5c5 1px solid; border-radius:5px; -webkit-border-radius:5px; margin-bottom:6px; list-style:none; display:block;}
+#dMbHomeMenu li a{color:#2b2b2b; text-decoration:none; margin-left:10px; text-indent:25px; float:left; width:95%;}
+
+.cMbwork a{background:url(/mhtml/images/icon_1.png) no-repeat left;height:38px; margin-left:15px;  }
+.cMbSolutions a{background:url(/mhtml/images/icon_2.png) no-repeat left;height:38px; margin-left:15px; }
+.cMbBC a{background:url(/mhtml/images/icon_3.png) no-repeat left;height:38px; margin-left:15px; }
+.cMbAbout a{background:url(/mhtml/images/icon_4.png) no-repeat left;height:38px; margin-left:15px; }
+.cMbTesti a{background:url(/mhtml/images/icon_5.png) no-repeat left;height:38px; margin-left:15px; }
+.cMbContact a{background:url(/mhtml/images/icon_6.png) no-repeat left;height:38px; margin-left:15px; }
+
+#dMbFooter{width:100%; background:#3c3c3c; height:35px;border:none; border-bottom:1px solid #222222; padding: 5px 0px; text-align:center;}
+#dMbRequest{display:inline-block; width: 70%; height:25px;line-height:25px; background:#dedede url(/mhtml/images/proposal1.png) right no-repeat;  border:#dedede 1px solid; border-radius:2px; -webkit-border-radius:2px; margin-bottom:6px; font-size:13px; font-weight:bold; text-transform:uppercase; padding-left:10px; float:left; text-align:left; }
+#dMbRequest a{text-decoration:none; color:#2b2b2b;}
+#dMbsubFooter{width:100%; background:#2b2b2b; height:75px;font-size:10px; color:#FFF}
+#dMbsubFooter a{color:#FFF}
+#dMbCopyright{color:#FFF; width:88%; padding:5px 0px; margin:0 auto;} 
+#dMbCopyright a{color:#fff; text-decoration:underline;}
+#dMbTop{display:inline-block; padding:0px 15px; height:25px;line-height:25px; background:#d4612d;  border:#d4612d 1px solid; border-radius:2px; -webkit-border-radius:2px; margin-bottom:6px; text-align:center; font-size:10px; font-weight:bold; text-transform:uppercase; float:right;}
+#dMbTop a{color:#FFF; text-decoration:none;}
+.cMbCenterBox{width:88%; display:block; margin:0 auto;}
+
+#dMbTorso a{text-decoration:none; color:#2b2b2b;}
+
+#dMbTorso .filterProject{display:none;}
+#dMbTorso .portfolioBoxList{margin:0 auto; text-align:center;}
+#dMbTorso .portfolio { display:block; float:left; width:230px; margin:5px; position:relative; }
+#dMbTorso .portfolioThumbnail { 
+	display:block; width:230px; padding:25px 0px 15px 0px; position:relative;
+	background:url(/images/common/mobile_portfolio-background-small.png) no-repeat; 
+}
+#dMbTorso .portfolioThumbnail img{ 
+	width:228px;
+}
+
+#dMbTorso .portfolio span { 
+	display:block; width:90px; height:90px; position:absolute; top:-7px; left:-7px;
+	z-index:10;
+}
+#dMbTorso .featured { background:url(/images/common/portfolio-featured.png) no-repeat; }
+#dMbTorso .portfolioInfo { 
+	display:block; overflow:hidden; padding:5px; border-top:1px solid #F9F9F9;
+	background:#efefef; 
+}
+#dMbTorso .portfolioInfo h4 { display:block; overflow:hidden; margin:0; }
+#dMbTorso .portfolioInfo p { margin:0;height:20px; overflow:hidden; }
+
+#dMbTorso .shadow-divider { 
+	display:block; overflow:hidden; height:10px; margin:10px 0 10px 0;
+	background:url(/images/common/shadow-divider.jpg) top center no-repeat;
+}
+
+#dMbTorso .solutionsBox { display:block; overflow:hidden; padding:0 !important; margin:0 0 5px 0; }
+#dMbTorso .solutionsBox li { 
+	display:block; overflow:hidden; float:left; width:200px; margin:0 20px 15px 0; list-style:none;
+	-webkit-box-shadow: 0 8px 6px -6px #999; -moz-box-shadow: 0 8px 6px -6px #999; 
+	box-shadow: 0 8px 6px -6px #999; 
+}
+#dMbTorso .solutionsBox li img { width:200px; height:120px; margin:0; padding:0; display:block; overflow:hidden; }
+
+#dMbTorso .solutionsBox li p { 
+	display:block; overflow:hidden; margin:0 !important; padding:10px; font-size:14px;
+	background:url(/images/common/portfolio-info-background.jpg); text-align:center;
+}
+
+#dMTorso .cMbImage{}

@@ -1,0 +1,101 @@
+/* @override http://whitelabelpartnersite.businesscatalyst.com/stylesheets/theme.css */
+
+/* -----------------------------------------------------------------------
+
+ Green Theme for Unbranded Partner Site
+
+----------------------------------------------------------------------- */
+
+/* links */
+a:link, a:visited {
+	color: #70A601;
+}
+
+a:hover, a:active {
+	color: #70A601;
+}
+
+a.link-button {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	color: #70A601;
+}
+
+a.link-button:hover {
+	background: #70A601;
+	border: 1px solid #70A601;
+	color: #fff;
+}
+
+a.link-block {
+	background: #70A601;
+	color: #fff;
+}
+
+a.link-block:hover {
+	background: #E0F3B8;
+	color: #70A601;
+}
+
+#whoslogged a {
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+}
+
+#whoslogged a:hover {
+	background: #678908;
+	border: 1px solid #678908;
+}
+
+/* submit button */
+.button-submit {
+	background: #678908;
+	color: #fff;
+}
+
+
+/* containers */
+#stretch-header {
+	background: #444;
+	border-bottom: 1px solid #333;
+}
+
+#search-site {
+	background: #333;
+	border: 1px solid #2e2e2e;
+}
+
+#stretch-nav {
+	background: #92C10B;
+	border-bottom: 1px solid #88B30A;
+}
+
+
+/* menu hover state */
+#container-nav li a {
+	color: #fff;
+}
+
+#container-nav li.selected a,
+#container-nav li.selected a:hover {
+	color: #333;
+	cursor: default;
+}
+
+#container-nav li a:hover {
+	color: #C2FF0E;
+}
+
+.nav-side li a:hover {
+	background: #E0F3B8;
+	border-top: 1px solid #fff;
+	color: #70A601;
+}
+
+#stripNav0 li a:hover {
+	background: #E0F3B8;
+	color: #70A601;
+}
+
+

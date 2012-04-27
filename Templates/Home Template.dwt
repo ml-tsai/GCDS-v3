@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.0.2" type="text/css" media="screen" />
+<link href="/images/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<link rel="canonical" href="http://www.gcds.com.au" />
+
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="/js/nav-selected.js"></script>
+<script type="text/javascript" src="/js/mosaic.1.0.1.js"></script>
+<script type="text/javascript">
+	jQuery(function($){
+		$('.bar2').mosaic({
+			animation	:	'slide'		//fade or slide'
+		});
+	});
+</script>
+<script>
+	$(document).ready(function() {
+		$("#responsecontainer").load("/single-testimonial");
+			var refreshId = setInterval(function() {
+		$("#responsecontainer").load('/single-testimonial?randval='+ Math.random());
+			}, 7500);
+		$.ajaxSetup({ cache: false });
+	});
+</script>
+<script>
+	$(document).ready(function() {
+		$("#responsecontainer").load("/single-testimonial");
+			var refreshId = setInterval(function() {
+		$("#responsecontainer").load('/single-testimonial?randval='+ Math.random());
+			}, 7500);
+		$.ajaxSetup({ cache: false });
+	});
+</script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.0.2"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+		
+		$(".various").fancybox({
+			maxWidth	: 800,
+			maxHeight	: 600,
+			fitToView	: false,
+			width		: '70%',
+			height		: '70%',
+			autoSize	: false,
+			closeClick	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
+	});
+</script>
+
+<script type="text/javascript">
+    // <![CDATA[
+        var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+        if (mobile) {
+            document.location = "/mobile";
+        }
+    // ]]>
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<style type="text/css">
+	.quoteBox { display:none; } /* This is to hide the Contact Button on the header */
+	span.read-more { display:none; }
+    span.more { display: none;  }
+</style>
+
+
+</head>
+
+<body>
+	<div id="wrap" class="pattern1">
+    	<div id="main" class="clearfix">
+        	<div id="wrapper">
+                <div id="header">
+                    {module_contentholder,17900}
+                </div><!-- header ends -->
+                <div id="content">
+                	<h1 class="homeHeading">
+                    	{module_contentholder,20423}
+                  	</h1>
+                    <div class="slider">
+                   	  	{module_webapps,12158,a,4}
+               	  	</div><!-- slider ends -->
+                    <div class="contentHolder1 round homepage">
+                        <div class="homeBox1">
+                        	<!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                        </div>
+                      	<div class="homeBox2">
+                        	<h2><span>What's Buzzing</span> Lately? <img src="/images/common/rss.png" alt="rss icon" /></h2>
+                            <!--
+                            {module_twittertweet, moduleTemplateGroup="", language="en", url="", count="horizontal", text="", via="", related="", countUrl=""}
+                            {module_facebooklike, moduleTemplateGroup="", language="en_US", url="", layout="button_count", showFaces="false", width="50px", verb="like", font="", colorScheme=""}
+                            -->
+                            <!-- AddThis Button BEGIN -->
+                            <div class="addthis_toolbox addthis_default_style ">
+                                <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                                <a class="addthis_button_tweet"></a>
+                                <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+                                <!--<a class="addthis_counter addthis_pill_style"></a>-->
+                            </div>
+                            <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f8ca39617154e8c"></script>
+                            <!-- AddThis Button END -->
+                            <div class="blogSummaryHolder">
+                            	{module_blogsitesummary,6847,4}
+                            </div>
+                        </div>
+                        <div class="homeBox3">
+                        	{module_webapps,13336,r,} 
+                        </div>
+                    </div><!-- contentholder1 ends -->
+                    <div class="quicklinks">
+                    	<div class="quickInfo round" style="background:#FFF url(/images/common/website-evaluation.jpg) right center no-repeat;">
+                        	<img src="/images/common/free-report.png" alt="Free Report" />
+                        	<h5>Free Website Quote</h5>
+                            <div>
+                                <p><strong>Want to maximise the potential<br/>of your website?</strong></p>
+                                <p>If you are looking to engage our<br>expertise for your project, please<br>get in touch with your GCDS team!</p>
+                            </div>
+                            <p><a href="/contact-website-designers" class="shortBtn">Apply for Free Quote</a></p>
+                        </div>
+                        <div class="quickInfo round" style="background:#FFF url(/images/common/affordable-website-solutions.jpg) right center no-repeat;">
+                        	<h5>Take Control of Your Website</h5>
+                            <div>
+                                <p><strong>Our Clients ♥ Business Catalyst</strong></p>
+                                <p>Browse through the powerful<br>features that helps you to<br>manage your website and <br> make informed decisions.</p>
+                            </div>
+                            <p><a href="/business-catalyst/business-catalyst-solutions" class="shortBtn">More Info on BC</a></p>
+                        </div>
+                        <div class="quickInfo round" style="margin:0; background:#FFF url(/images/common/sign-up-for-our-newsletter.jpg) right center no-repeat;">
+                        	<h5>Our Raving Customers!</h5>
+                            <div id="responsecontainer" class="quote-mark testimonial">
+                            	<!-- Testimonials -->
+                            </div>
+                            <p><a href="/about/success-stories-web-design-clients" class="shortBtn">More Success Stories</a></p>
+                        </div>
+                    </div>
+                </div><!-- content ends -->
+            </div><!-- wrapper ends -->
+        </div><!-- main ends -->
+    </div><!-- wrap ends -->
+    <div id="footerContainer">
+    	<div id="footer">
+        	{module_contentholder,17899}
+        </div>
+    </div>
+</body>
+</html>

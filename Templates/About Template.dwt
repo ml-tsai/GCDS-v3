@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.0.2" type="text/css" media="screen" />
+<link href="/images/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="/js/nav-selected.js"></script>
+<script type="text/javascript" src="/js/jquery.main.js"></script>
+<script type="text/javascript" src="/js/ddaccordion.js">
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+</script>
+<script type="text/javascript">
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "faqTitle", //Shared CSS class name of headers group
+	contentclass: "faqAnswer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='/images/common/plus.png' /> ", "<img src='/images/common/minus.png' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+</script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.0.2"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<script type="text/javascript">
+	var ele = document.getElementsByTagName('input');
+	var len = ele.length;
+	for(var i=0;i<len;i++){
+		if(ele[i].type == 'text')
+		ele[i].value='';
+	}    
+</script>
+                                               
+
+
+{module_contentholder,20457}
+
+</head>
+<body>
+	<div id="wrap" class="pattern2">
+    	<div id="main" class="clearfix">
+        	<div id="wrapper">
+                <div id="header">
+                	 {module_contentholder,17900}
+                </div><!-- header ends -->
+                <div id="content">
+                    <div class="round contentHolder2">
+                    	<div class="left col1 gradient1">
+                        	<div class="leftBottomShadow">
+                                <div class="leftNavigation">
+                                    {module_menu,1051028}
+                                </div>
+                                <div class="sideForm">
+                                	{module_contentholder,20079}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right col2 padding20">
+                        	<div class="breadcrumb">
+                                <a href="/">Homepage</a><span>&raquo;</span>
+                                <p>{module_breadcrumbs, <span>&raquo;</span>}</p>
+                            </div>
+                            <div class="mainInfo">
+                    		<!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                            </div>
+                        </div>
+                    </div><!-- contentholder2 ends -->
+                </div><!-- content ends -->
+            </div><!-- wrapper ends -->
+        </div><!-- main ends -->
+    </div><!-- wrap ends -->
+    <div id="footerContainer">
+    	<div id="footer">
+        	{module_contentholder,17899}
+        </div>
+    </div>
+</body>
+</html>

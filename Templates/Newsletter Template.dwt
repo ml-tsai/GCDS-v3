@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Web Design Gold Coast / Brisbane Queensland - Website Design Company QLD, Australia</title>
+<!-- TemplateBeginEditable name="doctitle" --><title></title><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body style="background-color:rgb(37,37,37);" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td valign="top" bgcolor="#252525" style="background-color:rgb(37,37,37); padding:20px 0;">
+            	<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="font:13px Helvetica, Arial, sans-serif; color:#252525; line-height:100%; background:#FFF;">
+                	<tr>
+                    	<td>
+                        	<img src="http://www.gcds.com.au/images/newsletter/header.jpg" alt="Visit us at www.gcds.com.au" />
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td>
+                        	<div style="padding:40px 20px;">
+                                <!-- TemplateBeginEditable name="ContentArea" -->{tag_pagecontent}<!-- TemplateEndEditable -->
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td>
+                        	<img src="http://www.gcds.com.au/images/newsletter/footer.jpg" alt="Like us on Facebook" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        <tr>
+    </table>
+</body>
+</html>

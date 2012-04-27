@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {margin:0;padding:0;} 
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body, #wrap {height: 100%;}
+
+body > #wrap {height: auto; min-height: 100%;}
+
+#main {
+	padding:0 0 124px 0;
+	width:96%;
+	max-width:960px;
+	margin:0 auto;
+}  /* must be same height as the footer */
+
+#footerBox {
+	position: relative;
+	margin-top: -124px; /* negative value of footer height */
+	height: 124px;
+	clear:both;
+} 
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/* ================================================== GENERAL STARTS ================================================== */
+
+body {
+	background:#ededed url(/mobile/images/background.jpg) top repeat-x; -webkit-text-size-adjust:none;
+	font:16px/20px normal Arial, Helvetica, sans-serif; -webkit-background-size:163px 116px;
+}
+
+img { border:0; }
+
+
+.bottomShadow { 
+	-webkit-box-shadow: 0 8px 6px -6px #999; -moz-box-shadow: 0 8px 6px -6px #999; 
+	box-shadow: 0 8px 6px -6px #999; 
+}
+
+/* ================================================== GENERAL FINISH ================================================== */
+
+
+/* ================================================== HEADER  STARTS ================================================== */
+
+header { display:block; overflow:hidden; height:85px; padding:15px; text-align:center; }
+
+.logo { 
+	display:block; overflow:hidden; width:275px; height:85px; text-indent:-9999px; margin:0 auto;
+	background:url(/mobile/images/logo.png) center no-repeat;
+}
+
+/* ================================================== HEADER  FINISH ================================================== */
+
+
+/* ================================================== CONTENT STARTS ================================================== */
+
+#content { display:block; overflow:hidden; padding:20px 0; position:relative; }
+
+#addthis { display:block; overflow:hidden; padding:20px 0; margin:0 0 20px 0; }
+
+nav { display:block; overflow:hidden; margin:0 0 20px 0; padding:0 0 20px 0; }
+nav ul { 
+	display:block; overflow:hidden; padding:0; margin:0;
+	border:1px solid #CCC; -webkit-box-shadow: 0 8px 6px -6px #999; -moz-box-shadow: 0 8px 6px -6px #999; 
+	box-shadow: 0 8px 6px -6px #999; border-radius:5px;
+}
+nav li { 
+	display:block; overflow:hidden; background:#FFF; font-size:110%; padding:0; margin:0;
+	border-top:1px solid #FFF; border-bottom:1px solid #CCC; line-height:30px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#efefef));
+	background: -moz-linear-gradient(top, #fcfcfc, #efefef); 
+}
+nav li a { 
+	display:block; color:#000; padding:10px 25px 10px 10px; text-shadow:#FFF 0 1px 1px;
+	text-decoration:none; font-weight:bold; margin:0;
+	background:url(/mobile/images/go_arrow.png) 97% 50% no-repeat;
+}
+nav li:first-child { border-radius:5px 5px 0 0; }
+nav li:last-child { border-radius:0 0 5px 5px; border-bottom:0; }
+
+
+#mainContent { 
+	display:block; overflow:hidden; margin:0 0 10px 0; padding:0 1%;
+	text-shadow:#FFF 0 1px 1px; font-size:13px;  
+}
+#mainContent h1 { 
+	display:block; overflow:hidden; font-size:22px; line-height:25px; margin:0 0 15px 0;
+}
+#mainContent h2 { display:block; overflow:hidden; font-size:16px; margin:0 0 10px 0; }
+#mainContent p { display:block; overflow:hidden; margin:0 0 10px 0; }
+
+
+.portfolioBox { 
+	display:block; overflow:hidden; padding:10px 0; margin:0; position:relative; 
+}
+.portfolio { display:block; width:282px; margin:0 auto 40px auto;  }
+.portfolioThumbnail { 
+	display:block; width:280px; height:185px; padding:25px 1px 15px 1px; position:relative;
+	background:url(/images/common/portfolio-background-small.png) no-repeat; 
+}
+.portfolio .website { display:none; }
+.portfolio .mobile { display:block; }
+.portfolio .mobile img { width:280px; height:185px; }
+
+
+.solutions, .contact { 
+	display:block; overflow:hidden; margin:0 0 30px 0; 
+	border-top:1px solid #CCC;
+}
+.solutions li, .contact li { 
+	display:block; overflow:hidden; min-height:64px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#fcfcfc));
+	background: -moz-linear-gradient(top, #efefef, #fcfcfc); 
+	border-top:1px solid #FFF; border-bottom:1px solid #CCC;
+}
+.solutions li div, .contact li a {
+	display:block; overflow:hidden; padding:20px 15px 20px 95px;
+	text-decoration:none; color:#333; background-position:10px 50%;
+	background-repeat:no-repeat;
+}
+.solutions li div.solution_1 {
+	background-image:url(/mobile/images/service1_small.png);
+}
+.solutions li div.solution_2 {
+	background-image:url(/mobile/images/service2_small.png);
+}
+.solutions li div.solution_3 {
+	background-image:url(/mobile/images/service3_small.png);
+}
+.solutions li div.solution_4 {
+	background-image:url(/mobile/images/service4_small.png);
+}
+.solutions li div.solution_5 {
+	background-image:url(/mobile/images/service5_small.png);
+}
+.solutions li div h2 { display:block; overflow:hidden; font-size:16px; margin:0; }
+.solutions li div p { margin:0 !important; line-height:15px; }
+
+
+.contact li a.contact_1 {
+	background-image:url(/mobile/images/contact1_small.png);
+}
+.contact li a.contact_2 {
+	background-image:url(/mobile/images/contact2_small.png);
+}
+.contact li a.contact_3 {
+	background-image:url(/mobile/images/contact3_small.png);
+}
+.contact li a.contact_4 {
+	background-image:url(/mobile/images/contact4_small.png);
+}
+.contact li a h2 { display:block; overflow:hidden; font-size:16px; margin:0 !important; }
+.contact li a p { margin:0 !important; font-size:15px; }
+
+
+ul.benefits { padding:0; margin:0 0 15px 0; }
+.benefits li { 
+	padding:3px 0 3px 25px; list-style:none;
+	background:url(/mobile/images/arrow_small.png) left center no-repeat; 
+}
+
+
+.image { display:block; overflow:hidden; margin:0 auto 20px auto; max-width:600px; }
+.image img { width:100%; }
+
+
+
+
+/* ================================================== CONTENT FINISH ================================================== */
+
+
+/* ================================================== FOOTER  STARTS ================================================== */
+
+
+
+footer { color:#CCC; border-top:1px solid #474747; }
+
+.topFooter { 
+	display:block; overflow:hidden; height:45px; padding:10px 0; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#4e4e4e), to(#3a3a3a));
+	background: -moz-linear-gradient(top, #4e4e4e, #3a3a3a);
+	border-top:1px solid #888; border-bottom:1px solid #232323;
+}
+
+.topFooter .button { 
+	display:block; text-align:center; color:#000; font-size:18px; font-weight:bold; float:left;
+	border-radius:4px; padding:0; text-shadow:#FFF 0 1px 1px; line-height:45px; vertical-align:central;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#BBB));
+	background: -moz-linear-gradient(top, #EEE, #BBB); width:46%; margin:0 2%;
+}
+.topFooter .button a { display:block; color:#000; text-decoration:none; }
+
+.bottomFooter { 
+	display:block; overflow:hidden; height:35px; padding:10px 0; font-size:11px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#2e2e2e));
+	background: -moz-linear-gradient(top, #282828, #2e2e2e);
+	border-top:1px solid #4e4e4e;
+}
+.bottomFooter p { display:block; overflow:hidden; text-align:center; line-height:17px; width:96%; margin:0 2%; }
+.bottomFooter p a { color:#FFF; }
+
+
+
+
+/* ================================================== FOOTER  FINISH ================================================== */
+
+
+/* Mobile Styles */
+@media only screen and (max-device-width:580px) {
+	body {
+		background:#ededed url(/mobile/images/background_large.jpg) top repeat-x;
+		-webkit-background-size:163px 116px;
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width:581px) and (max-width:1024px) {
+	#content nav { float:left; width:30%; } 
+	#content section { float:right; width:65%; }
+	
+	#mainContent { font-size:14px; line-height:24px }
+	#mainContent h1 { font-size:25px; line-height:30px; }
+	#mainContent h2 { font-size:20px; line-height:25px; }
+	
+	.portfolio { margin:0 30px 40px 0; float:left; }
+	.portfolio img { width:100%; }
+	
+	.benefits li { float:left; width:45%; padding:3px 0 3px 20px; }
+	
+	.topFooter .button { font-size:22px; }
+	.bottomFooter { font-size:12px; }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width:1025px) {
+	#main { width:80%; margin:0 auto; }
+	
+	#mainContent h1 { font-size:25px; line-height:30px; }
+	#mainContent h2 { font-size:20px; line-height:25px; }
+	
+	.portfolio { margin:0 10px 40px 10px; float:left; }
+	.portfolio img { width:100%; }
+	
+	.topFooter section, .bottomFooter section { width:80%; max-width:960px; margin:0 auto; }
+	.topFooter .button { width:48%; margin:0 1%; }
+	.bottomFooter p { width:98%; margin:0 1%; }
+}
+
+
+
+/* Image 2X */
+@media screen and (-webkit-device-pixel-ratio:2){
+
+	.logo { 
+		background:url(/mobile/images/logo_large.png) center no-repeat; 
+		-webkit-background-size: 275px 85px; 
+	}
+	nav li a { 
+		background:url(/mobile/images/go_arrow_large.png) 97% 50% no-repeat; 
+		-webkit-background-size: 16px 17px;
+	}
+	.portfolioThumbnail { 
+		background:url(/images/common/portfolio-background-small_2x.png) no-repeat; 
+		-webkit-background-size: 282px 225px;
+	}
+	
+	.solutions li div.solution_1 {
+		background-image:url(/mobile/images/service1_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.solutions li div.solution_2 {
+		background-image:url(/mobile/images/service2_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.solutions li div.solution_3 {
+		background-image:url(/mobile/images/service3_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.solutions li div.solution_4 {
+		background-image:url(/mobile/images/service4_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.solutions li div.solution_5 {
+		background-image:url(/mobile/images/service5_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	
+	.contact li a.contact_1 {
+		background-image:url(/mobile/images/contact1_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.contact li a.contact_2 {
+		background-image:url(/mobile/images/contact2_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.contact li a.contact_3 {
+		background-image:url(/mobile/images/contact3_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	.contact li a.contact_4 {
+		background-image:url(/mobile/images/contact4_2x.png);
+		-webkit-background-size: 64px 64px;
+	}
+	
+	
+	.benefits li { 
+		background-image:url(/mobile/images/arrow_2x.png);
+		-webkit-background-size: 16px 16px;
+	}
+}
+
